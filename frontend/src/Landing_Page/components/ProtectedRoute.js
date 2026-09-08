@@ -1,24 +1,4 @@
-// import React from 'react';
-// import { Navigate } from 'react-router-dom';
-// import { useAuth } from '../Context/AuthContext';
 
-// const ProtectedRoute = ({ children, allowedRoles }) => {
-//   const { user } = useAuth();
-
-//   // Agar user logged in nahi hai
-//   if (!user) {
-//     return <Navigate to="/login" replace />;
-//   }
-
-//   // Agar user ka role route allowed list mein nahi hai
-//   if (allowedRoles && !allowedRoles.includes(user.role)) {
-//     return <Navigate to="/access-denied" replace />;
-//   }
-
-//   return children;
-// };
-
-// export default ProtectedRoute;
 
 import React from 'react';
 import { Navigate } from 'react-router-dom';

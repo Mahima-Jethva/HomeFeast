@@ -1,40 +1,4 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
 
-// function Dashboard() {
-//   return (
-//     <div className="flex flex-col md:flex-row min-h-screen bg-[#FAF6EF] font-sans">
-//       <aside className="w-full md:w-64 bg-[#1C3A34] text-white p-6 shrink-0">
-//         <h1 className="font-serif text-2xl font-bold mb-6">Admin Panel</h1>
-//         <nav className="space-y-3">
-//           <Link to="/admin/dashboard" className="block px-4 py-2 bg-[#D47559] rounded-xl text-sm font-medium">Overview</Link>
-//           <Link to="/" className="block px-4 py-2 text-white/70 hover:text-white text-sm">Main Site</Link>
-//         </nav>
-//       </aside>
-
-//       <main className="flex-1 p-8">
-//         <h2 className="font-serif text-3xl font-bold text-[#1C3A34] mb-6">Platform Performance</h2>
-        
-//         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-//           <div className="bg-white p-6 rounded-2xl border border-black/5 shadow-sm">
-//             <h3 className="text-gray-500 text-xs font-bold uppercase">Active Kitchens</h3>
-//             <p className="text-3xl font-bold text-[#1C3A34] mt-2">12</p>
-//           </div>
-//           <div className="bg-white p-6 rounded-2xl border border-black/5 shadow-sm">
-//             <h3 className="text-gray-500 text-xs font-bold uppercase">Pending Verification</h3>
-//             <p className="text-3xl font-bold text-[#D47559] mt-2">3 Cooks</p>
-//           </div>
-//           <div className="bg-white p-6 rounded-2xl border border-black/5 shadow-sm">
-//             <h3 className="text-gray-500 text-xs font-bold uppercase">Total Platform Orders</h3>
-//             <p className="text-3xl font-bold text-[#1C3A34] mt-2">240</p>
-//           </div>
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
-
-// export default Dashboard;
 
 import React from 'react';
 import { useAuth } from '../Context/AuthContext';
